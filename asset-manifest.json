@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/farmers-dao-ui/static/css/main.f163a53f.css",
+    "main.js": "/farmers-dao-ui/static/js/main.38332273.js",
+    "index.html": "/farmers-dao-ui/index.html",
+    "main.f163a53f.css.map": "/farmers-dao-ui/static/css/main.f163a53f.css.map",
+    "main.38332273.js.map": "/farmers-dao-ui/static/js/main.38332273.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f163a53f.css",
+    "static/js/main.38332273.js"
+  ]
+}
