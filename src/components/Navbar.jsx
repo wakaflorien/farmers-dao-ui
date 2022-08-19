@@ -84,9 +84,11 @@ const Nav = () => {
                     <span>Farmers Dao</span>
                 </Typography>
                 <div className="hidden lg:block">{navList}</div>
+                <Link to='/Join'>
                 <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
-                    <Link to='/Join'>Join organization</Link>
+                    Join organization
                 </Button>
+                </Link>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
