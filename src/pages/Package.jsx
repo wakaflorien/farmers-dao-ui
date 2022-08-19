@@ -26,12 +26,14 @@ const Package = () => {
                 <PackageCard type="Premium" active="inactive"/>
             </div>
            <div className="flex items-center justify-center lg:my-10">
-            <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
-                    <Link to='/Proposal' className="flex flex-row">
-                        <Icon icon="icon-park-solid:connect-address-one" height="18" className="lg:mx-2" color="#0A4425" />
-                        <span className="lg:mr-2">Connect</span>
-                    </Link>
-                </Button>
+                <Link to='/Proposal'>
+                    <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
+                           <div className="flex flex-row">
+                            <Icon icon="icon-park-solid:connect-address-one" height="18" className="lg:mx-2" color="#0A4425" />
+                                <span className="lg:mr-2">Connect</span>
+                           </div>
+                    </Button>
+                </Link>
            </div>
         </main>
     )

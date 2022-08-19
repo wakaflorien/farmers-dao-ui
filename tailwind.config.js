@@ -19,7 +19,5 @@ module.exports = withMT({
       poppins: ['Poppins'],
     }
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [],
 })
