@@ -14,9 +14,9 @@ root.render(
     <BrowserRouter>
       <ThemeProvider>
         <Routes>
-          <Route path={"/"} element={<App />}/>
-          <Route path={"/Join"} element={<Package />}/>
-          <Route path={"/Proposal"} element={<Proposal />}/>
+          <Route path={"/"} element={<App />} />
+          <Route path={"/Join"} element={<Package />} />
+          <Route path={"/Proposal"} element={<Proposal />} />
         </Routes>
       </ThemeProvider>
     </BrowserRouter>
