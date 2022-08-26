@@ -20,4 +20,5 @@ module.exports = withMT({
     }
   },
   plugins: [],
-})
+});
+
