@@ -5,7 +5,7 @@ import PackageCard from '../components/PackageCard';
 
 const Package = () => {
     return (
-        <main className="bg-primary h-screen w-full lg:h-screen text-white px-4 lg:px-40 lg:py-32">
+        <main className="bg-primary h-screen w-full lg:h-screen text-white px-4 lg:px-40 lg:py-20">
             <Typography variant="h1" className="text-3xl text-center lg:my-8">
                 Available packages
             </Typography>
@@ -29,8 +29,8 @@ const Package = () => {
                 <Link to='/Proposal'>
                     <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
                            <div className="flex flex-row">
-                            <Icon icon="icon-park-solid:connect-address-one" height="18" className="lg:mx-2" color="#0A4425" />
-                                <span className="lg:mr-2">Connect</span>
+                            <Icon icon="cryptocurrency:sol" height="24" className="lg:mx-2" color="#0A4425" />
+                                <span className="lg:mr-2">Buy package</span>
                            </div>
                     </Button>
                 </Link>

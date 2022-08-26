@@ -7,6 +7,7 @@ import {
     Button,
     IconButton,
 } from "@material-tailwind/react";
+import { Icon } from "@iconify/react";
 
 const Nav = () => {
     const [openNav, setOpenNav] = useState(false);
@@ -86,7 +87,10 @@ const Nav = () => {
                 <div className="hidden lg:block">{navList}</div>
                 <Link to='/Join'>
                 <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
-                    Join organization
+                    <div className="flex flex-row">
+                        <Icon icon="icon-park-solid:connect-address-one" height="24" className="lg:mx-2" color="#0A4425" />
+                            <span className="lg:mr-2">Join Organization</span>
+                    </div>
                 </Button>
                 </Link>
                 <IconButton
