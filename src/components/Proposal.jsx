@@ -16,18 +16,18 @@ const Proposal = () => {
             <div className="flex flex-row justify-between">
                 <div className="flex items-center ">
                     <Typography variant="lead" className="text-tertiary">J93TcyZH5bHD2qeyFThFTKhoJ4Mg3Sb4S8NcvRLqsmBZ</Typography>
-                    <Typography variant="h4" className="lg:text-xl lg:mx-20" color="white">10 SOL</Typography>
+                    <Typography variant="h4" className="lg:text-xl lg:mx-20" color="white">10 Tokens</Typography>
                 </div>
                 <Button variant="filled" size="lg" color="green"  onClick={handleOpen} className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
                     <div className="flex flex-row">
-                        <Icon icon="carbon:add-alt" height="18" className="lg:mx-2" color="#0A4425" />
-                        <span className="lg:mr-2">Create proposal</span>
+                        <Icon icon="bx:message-rounded-add" height="18" className="lg:mx-2" color="#0A4425" />
+                        <span className="lg:mr-2">Add proposal</span>
                     </div>
                 </Button>
                 <Button variant="filled" size="lg" color="green" className="hidden lg:inline-block bg-gradient-to-b from-buto to-primary lg:rounded-full">
                     <Link to='/' className="flex flex-row">
-                    <Icon icon="ant-design:logout-outlined" height="18" className="lg:mx-2" color="#0A4425" />
-                        <span className="lg:mr-2">Logout</span>
+                        <Icon icon="ant-design:logout-outlined" height="18" className="lg:mx-2" color="#0A4425" />
+                            <span className="lg:mr-2">Logout</span>
                     </Link>
                 </Button>
             </div>
